@@ -1,15 +1,29 @@
 # Utiliza álgebra booleana para hacer un refactoring de este código
 # Para verificar la respuestas, puedes modificar los valores de a y b.
 
-a = 'verdadero'
-b = 'falso'
+#a = 'verdadero'
+#b = 'falso'
 
-if a == 'verdadero'
+#if a == 'verdadero'
+#    puts ':)'
+#else
+#  if b == 'verdadero'
+ #   puts ':|'
+ # else
+#    puts ':('
+ # end
+#end
+##Ejercicio 6 
+
+a = false
+b = false
+
+if a == true
     puts ':)'
-else
-  if b == 'verdadero'
+    elsif b == true
     puts ':|'
-  else
-    puts ':('
   end
+
+if !a && !b 
+  puts ':('
 end
