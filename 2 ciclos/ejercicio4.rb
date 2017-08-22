@@ -7,11 +7,20 @@
 # <li> hola </li>
 # </ul>
 
-a = 5
-b = '<li> hola </li>'
+#a = 5
+#b = '<li> hola </li>'
 
-puts '<ul>'
-5.times do |i| 
-  puts "#{b}"
+# puts '<ul>'
+# 5.times do |i| 
+#   puts "#{b}"
+# end
+# puts '</ul>'
+
+a = 5
+b = ['<ul>']
+
+a.times do
+	b.push('<li> hola </li>')
 end
-puts '</ul>'
+b.push('</ul>')
+puts b
