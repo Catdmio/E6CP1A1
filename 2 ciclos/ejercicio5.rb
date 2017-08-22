@@ -2,8 +2,9 @@
 # pero no funciona porque algo falta, ¿puedes arreglarlo?
 # TIP: El total debería sumar 55.
 
-10.times do |i|
-  suma += i
-end
+suma = 10 
 
-puts suma
+10.times do |i|
+   suma += i
+end
+ puts suma
